@@ -1,0 +1,23 @@
+/* Large Tablets*/
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .home .nav-bar ul {
+        width: 25%;
+    }
+}
+
+/* Small Tablets */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .home .nav-bar ul {
+        width: 35%;
+    }
+
+    .about-me {
+        height: 40vh;
+    }
+
+    .port .top-pro .pro-con div {
+        width: 45%;
+    }
+}
